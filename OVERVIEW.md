@@ -1,7 +1,9 @@
 # The Commutator Zoo: A Mathematical Overview
 
 This repository connects five distinct fields through a single mathematical concept: **Non-Commutative Algebra** (Lie Theory).
-
+---
+![Commutator-Zoo](./Commutator-zoo-x6.png)
+---
 ## The Core Concept: The Commutator
 In standard arithmetic, $a \times b = b \times a$. This is **Commutative**.
 In the real world (rotations, matrices, operators), this is rarely true. The measure of this failure is the **Commutator**:
@@ -52,3 +54,7 @@ Applying an X-Gate then a Y-Gate lands the qubit in a different state than Y the
 **The Math:** A neural network layer defines a Vector Field $f(x)$. Inference is integration along that field.
 $$ \int f_A(x) dt \quad \text{vs} \quad \int f_B(x) dt $$
 Flowing through field A then B is different than B then A. The network topology is non-commutative.
+
+---
+See 
+* [`commutator_zoo_complete.ipynb`](commutator_zoo_complete.ipynb) for the code in notebook form.
