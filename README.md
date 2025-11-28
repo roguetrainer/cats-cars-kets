@@ -4,8 +4,11 @@
 **The Central Dogma:** The order of operations matters. 
 
 If $[A, B] \neq 0$, then doing $A$ followed by $B$ is different from $B$ followed by $A$. 
-This difference creates motion in a new, often "forbidden" dimension.
+This difference creates motion in a new, often "forbidden" dimension.   
 
+---
+![Commutator-Zoo](./Commutator-zoo-x6.png)
+---
 ### The Collection
 Run the python scripts in each folder to visualize the math.
 
@@ -15,4 +18,7 @@ Run the python scripts in each folder to visualize the math.
 4. **Kets ($SU(2)$):** Quantum gates on the Bloch Sphere.
 5. **Continuous (Diff):** Neural ODEs and non-commutative flows.
 
-See `OVERVIEW.md` for the deep-dive explanation of the math.
+See 
+* [`OVERVIEW.md`](OVERVIEW.md) for the deep-dive explanation of the math.
+* [`commutator_zoo_complete.ipynb`](commutator_zoo_complete.ipynb) for the code in notebook form.
+
